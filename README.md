@@ -9,6 +9,11 @@ This project showcases a system designed to extract and analyze text YouTube vid
 - Provide summary for a the given transcription
 - Provide the content for user specified duration
 
+### Note & issues:
+- This project isn't complete because of lack data.
+- I have firstly trained the mode using the transcription (.txt) and then fine-tuned using the json file which contents the the duration . The fine-tuned model needs lots of train .
+- The accurasy may be low.
+- I have firstly tried to train the model with certain words such as end , ending ,finish , close , closure , termination for understanding the context to the model. Due to lack of experience that didn't turned well.
 ## Frameworks and Libraries
 
 Additional frameworks and libraries used in this project:
